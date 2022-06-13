@@ -5,10 +5,14 @@ import Home from "./container/Home";
 
 function App() {
   return (
-    <Routes>
-      <Route exact path="login" element={<Login />} />
-      <Route exact path="/*" element={<Home/>} />
-    </Routes>
+
+    <div>
+      HEY
+    </div>
+    // <Routes>
+    //   <Route path="login" element={<Login />} />
+    //   <Route path="/*" element={<Home/>} />
+    // </Routes>
   );
 }
 
